@@ -274,6 +274,7 @@ export default function VisitDetails({ visitId }: { visitId: string }) {
           </CardContent>
         </Card>
 
+        {/* Dialog for All Detailers */}
         <Dialog open={isAllDetailersDialogOpen} onOpenChange={setIsAllDetailersDialogOpen}>
           <DialogContent className="bg-white">
             <DialogHeader>
